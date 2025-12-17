@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scratch Page - Fly Fishing</title>
+  <link rel="stylesheet" href="css/scratch.css" />
+  <!-- Tableau web component -->
+<script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+
+</head>
+
+<body id="top">
+  <!-- Top nav -->
+  <header class="topbar">
+    <nav class="nav">
+      <a href="index.html">Home</a>
+      <span class="divider">|</span>
+      <a href="resume.html">Resume</a>
+      <span class="divider">|</span>
+      <a href="scratch.html">Fly Fishing</a>
+      <span class="divider">|</span>
+      <a href="fish-quiz.html">Play the Fish ID Quiz</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <!-- Hero -->
+    <section class="hero card">
+      <h1>Fly Fishing in Utah</h1>
+    </section>
+
+    <!-- Ordered + unordered list -->
+    <section class="card" id="gear">
+      <h2>Fly Fishing Gear Checklist</h2>
+
+      <ol>
+        <li>
+          Essential Gear
+          <ul>
+            <li>Rod &amp; reel</li>
+            <li>Leaders &amp; tippet</li>
+            <li>Flies (dry flies, nymphs, streamers)</li>
+          </ul>
+        </li>
+        <li>
+          Tools &amp; Accessories
+          <ul>
+            <li>Nippers &amp; forceps</li>
+            <li>Net</li>
+            <li>Floatant &amp; split shot</li>
+          </ul>
+        </li>
+        <li>
+          Comfort &amp; Safety
+          <ul>
+            <li>Polarized sunglasses</li>
+            <li>Wading belt</li>
+            <li>Rain jacket / layers</li>
+          </ul>
+        </li>
+      </ol>
+
+      <p class="backtotop"><a href="#top">Back to top</a></p>
+    </section>
+
+    <!-- Image -->
+    <section class="card" id="photo">
+      <h2>The Beauty of Fly Fishing</h2>
+
+      <!-- IMPORTANT: use your correct relative path -->
+      <img
+        class="feature-img"
+        src=assets/img/portfolio/assets:img:scratch:fly-fisherman.jpg
+        alt="Fly fisherman casting on a river"
+      />
+
+      <p class="backtotop"><a href="#top">Back to top</a></p>
+    </section>
+
+    <!-- YouTube -->
+    <section class="card" id="video">
+      <h2>Utah Fly Fishing Video</h2>
+
+      <div class="video-wrap">
+        <!-- Replace VIDEO_ID with your video’s ID -->
+        <iframe
+          src="https://www.youtube.com/embed/sL5yxtKNkho"
+          title="Fly Fishing Video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <p class="backtotop"><a href="#top">Back to top</a></p>
+    </section>
+
+    <!-- Tableau -->
+    <section class="card" id="tableau">
+      <h2>Check out this cool Tableau Graph!</h2>
+
+      <div class="tableau-wrap">
+        <tableau-viz
+          src="https://public.tableau.com/views/ices19502010/Story1"
+          toolbar="bottom"
+          hide-tabs>
+        </tableau-viz>
+      </div>
+
+      <p class="backtotop"><a href="#top">Back to top</a></p>
+    </section>
+
+    <footer class="footer">
+      <p><a href="index.html">Return to Home</a></p>
+    </footer>
+  </main>
+</body>
+</html>
+
+
